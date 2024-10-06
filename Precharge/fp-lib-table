@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Meder")(type "KiCad")(uri "${KIPRJMOD}/Precharge_library/Meder.pretty")(options "")(descr ""))
-)
