@@ -5509,7 +5509,7 @@
 	)
 	(text "Use 1% resistors"
 		(exclude_from_sim no)
-		(at 74.422 135.128 0)
+		(at 74.168 113.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5621,9 +5621,9 @@
 		)
 		(uuid "5904b191-d3cc-4f54-8c6e-d1db9af0045e")
 	)
-	(text "DC LINK CAPACITOR"
+	(text "DC-LINK CAPACITOR"
 		(exclude_from_sim no)
-		(at 167.64 174.752 0)
+		(at 167.386 170.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5663,7 +5663,7 @@
 		)
 		(uuid "67043da6-485a-440b-9e47-0888ff330ce4")
 	)
-	(text "~{V_Cap > 97.5% V_Accu}"
+	(text "~{V_Cap > 97.4% V_Accu}"
 		(exclude_from_sim no)
 		(at 133.858 125.984 0)
 		(effects
