@@ -27,20 +27,20 @@
         },
         {
           "color": "rgb(255, 255, 0)",
-          "cursor1": {
-            "position": 0.5953237410071942,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
           "signal": "P(R1)",
           "trace_type": 272
         },
         {
           "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 2.0675308641975305,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "V(V_Cap)",
           "trace_type": 257
         }

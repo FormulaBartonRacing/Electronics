@@ -733,6 +733,12 @@
 		(uuid "1525b2f1-b8cf-48be-8ce2-6635ab97de98")
 	)
 	(junction
+		(at 63.5 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "188f78f3-df39-42df-94e5-4b067ca428a1")
+	)
+	(junction
 		(at 63.5 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -761,12 +767,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf79ceb3-76ea-47dd-b473-456a48daf511")
-	)
-	(junction
-		(at 63.5 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8bc3a42-ed4a-40d2-a9aa-c723b9433c61")
 	)
 	(wire
 		(pts
@@ -850,6 +850,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52686c0f-0d4e-46e3-8e1a-5fea0ad57f2d")
+	)
+	(wire
+		(pts
 			(xy 29.21 82.55) (xy 29.21 83.82)
 		)
 		(stroke
@@ -887,6 +897,16 @@
 			(type default)
 		)
 		(uuid "6a5c9973-7ffd-4572-913f-9a2a7396940a")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f81c3bf-af4a-405a-8b0f-45984492c674")
 	)
 	(wire
 		(pts
@@ -987,16 +1007,6 @@
 			(type default)
 		)
 		(uuid "eb158d38-bae9-43b7-8c8b-18daf5ce539c")
-	)
-	(wire
-		(pts
-			(xy 63.5 82.55) (xy 76.2 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eece29e8-96ef-4162-a124-5f2bbde4a588")
 	)
 	(wire
 		(pts
@@ -1130,6 +1140,100 @@
 			(project ""
 				(path "/51f13e20-4624-4252-a9f8-a6fc77a6f6b6"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "D_1")
+		(lib_id "Simulation_SPICE:D")
+		(at 69.85 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0460ce42-bae5-4ed9-bd3f-e3a7e3808ca7")
+		(property "Reference" "D1"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode for simulation or PCB"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "vj=1 php=1"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26a2ad59-be0f-475d-8e7b-41891ef4c74f")
+		)
+		(pin "1"
+			(uuid "96a67d90-97a2-4f38-9147-a9a0a493bd83")
+		)
+		(instances
+			(project "Sim_Precharge"
+				(path "/51f13e20-4624-4252-a9f8-a6fc77a6f6b6"
+					(reference "D1")
 					(unit 1)
 				)
 			)

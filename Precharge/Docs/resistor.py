@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import math
 import numpy
 vmax = 117.6
+v2 = 90
 c = 4.418	#in mF
 resistor = [100, 120, 150, 180, 210, 270, 330, 390]
 peak_power = []
@@ -9,17 +10,21 @@ time = []
 time_ov = []
 ovload_x = []
 ovload_ovhead = []
+ovload_max = []
 
 R_data =[]
 
-R_ovload_model = [[25, 25, 12.5, 10, 7.5, 6.5, 5, 2.5], [0, 1, 2, 2.75, 3.5, 4, 5, 10]]  
+R_ovload_model = [[25, 25, 12.5, 10, 7.5, 6.5, 5, 2.5], [0.1, 1, 2, 2.75, 3.5, 4, 5, 10]]  
 				 # [multiplier], [time in s]
 
 def find_resistor(vmax, C, R_power, percent=97.4):
 	C = C/1000
+	percent /= 100
+	# to account for diode
+	percent = (percent * v2)/(v2 - 0.7)
 	for i in range(len(resistor)):
 		R = resistor[i]
-		t = -R*C*math.log(1-percent/100)
+		t = -R*C*math.log(1-percent)
 		power = round(vmax**2/resistor[i], 2)
 		peak_power.append(power)
 		time.append(t)
@@ -38,13 +43,14 @@ def find_resistor(vmax, C, R_power, percent=97.4):
 				y1, y2 = R_ovload_model[0][j], R_ovload_model[0][j+1]
 				y = (time[i]-x1)*(y1-y2)/(x1-x2)+y1
 				ovhead = round(y-ovload_x[i], 2)
+				ovload_max.append(y)
 				ovload_ovhead.append(ovhead)
 				R_data[i].append(ovhead)
 	
-		print(R, "  P_peak:", power, "  T:",round(t,2), "  OvLoad:", t_no_ov, "  Safety_Timer:", safety_timer)
-		print("      Overload_x:", ov, "\t\tOvHead:", ovhead)
+		print(R, "  P_peak:", power, "\tT:",round(t,2), "  OvLoad:", t_no_ov, "  Safety_Timer:", safety_timer)
+		print("      Overload_x:", ov, "\tOverload_max:", round(ovload_max[i]*R_power, 2), "\tOvHead:", ovhead*R_power)
 		print()
-	
+		
 find_resistor(vmax, c, 12.5)	
 					
 #plt.plot(resistor, peak_power)
