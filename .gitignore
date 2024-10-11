@@ -1,3 +1,6 @@
+# Ignore the backup folder
+*-backups/
+
 # Ignore KiCad backup and autosave files
 *.bak
 *.kicad_pcb-bak
@@ -5,6 +8,9 @@
 *.kicad_sch-bak
 *-save.kicad_pcb
 *-save.kicad_sch
+
+# Ignore lock files
+*.lck
 
 # Ignore KiCad cache files
 *.kicad_prl
@@ -14,6 +20,7 @@
 sym-lib-table
 fp-lib-table
 fp-lib-cache*
+fp-info-cache*
 *_cache.lib
 *_rescue.lib
 
