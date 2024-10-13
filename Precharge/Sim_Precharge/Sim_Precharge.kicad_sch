@@ -757,6 +757,18 @@
 		(uuid "5ceb66cb-78c6-4ad0-a029-7477cf2bc0e8")
 	)
 	(junction
+		(at 29.21 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a525438-e8a4-4d07-b929-14c5a9bb0c9e")
+	)
+	(junction
+		(at 29.21 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61de5c4-3b02-4f1b-833b-fbaf9e04561f")
+	)
+	(junction
 		(at 50.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -787,6 +799,16 @@
 			(type default)
 		)
 		(uuid "09bf0773-f34c-4a22-adc2-4f27885272a3")
+	)
+	(wire
+		(pts
+			(xy 19.05 82.55) (xy 29.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3f0be9-f26b-42f4-b811-0fd355469915")
 	)
 	(wire
 		(pts
@@ -890,6 +912,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 100.33) (xy 29.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a9c813-0e42-4ba6-9587-bacc1f3569ec")
+	)
+	(wire
+		(pts
 			(xy 38.1 83.82) (xy 38.1 82.55)
 		)
 		(stroke
@@ -907,6 +939,16 @@
 			(type default)
 		)
 		(uuid "6f81c3bf-af4a-405a-8b0f-45984492c674")
+	)
+	(wire
+		(pts
+			(xy 19.05 83.82) (xy 19.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743634e6-9dce-46bb-a0af-d04cabd04113")
 	)
 	(wire
 		(pts
@@ -987,6 +1029,16 @@
 			(type default)
 		)
 		(uuid "d7b95704-1c68-4615-89e9-b4ff7e70f9cb")
+	)
+	(wire
+		(pts
+			(xy 19.05 92.71) (xy 19.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16af083-471d-4b51-9683-d6e881216281")
 	)
 	(wire
 		(pts
@@ -1899,6 +1951,104 @@
 		)
 	)
 	(symbol
+		(lib_name "D_1")
+		(lib_id "Simulation_SPICE:D")
+		(at 19.05 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccab1226-9ab2-4076-a916-892e0ad2cdbb")
+		(property "Reference" "D3"
+			(at 21.59 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 21.59 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
+			(at 19.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode for simulation or PCB"
+			(at 19.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 21.59 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 21.59 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "vj=1.1 php=1.1"
+			(at 19.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20d7ddf4-3379-4231-81d1-260ecede0828")
+		)
+		(pin "1"
+			(uuid "7cbb4459-b8eb-4784-b673-33879b4f8252")
+		)
+		(instances
+			(project "Sim_Precharge"
+				(path "/51f13e20-4624-4252-a9f8-a6fc77a6f6b6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 38.1 87.63 180)
 		(unit 1)
@@ -1990,6 +2140,103 @@
 			(project "Sim_Precharge"
 				(path "/51f13e20-4624-4252-a9f8-a6fc77a6f6b6"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 19.05 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bbbc7d-88ba-4530-b06e-5d4b955522eb")
+		(property "Reference" "R6"
+			(at 21.59 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 21.59 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.828 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=9.9K"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09e9f786-9714-4fa5-971d-0ebb7a68fac7")
+		)
+		(pin "1"
+			(uuid "157505c6-b165-4626-88cb-579c7f6b1941")
+		)
+		(instances
+			(project "Sim_Precharge"
+				(path "/51f13e20-4624-4252-a9f8-a6fc77a6f6b6"
+					(reference "R6")
 					(unit 1)
 				)
 			)
