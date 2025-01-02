@@ -1,0 +1,10 @@
+* C:\users\evans\Desktop\FBR\Precharge\Sim_Precharge\Draft4.asc
+R1 P001 P002 1.2K
+C1 P003 P001 1µf
+V1 P002 0 12
+D1 P003 0 D
+.model D D
+.lib C:\users\evans\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 20 startup
+.backanno
+.end
