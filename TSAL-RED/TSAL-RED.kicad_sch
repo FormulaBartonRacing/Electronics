@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "3dba08e1-8d4d-49dd-80dc-41df92bd5b0c")
 	(paper "A3")
+	(title_block
+		(title "TSAL RED and DIscharge")
+		(date "2025-01-03")
+		(rev "1.0")
+		(company "Formula Barton Racing")
+		(comment 1 "evanscesil@gmail.com")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names
@@ -3672,7 +3679,7 @@
 		(uuid "7592ddb3-978c-4f13-993d-7fcb9b65974f")
 	)
 	(no_connect
-		(at 234.95 167.64)
+		(at 231.14 167.64)
 		(uuid "8d0cf6ab-0eb7-43cb-8b42-0c2796ed4222")
 	)
 	(no_connect
@@ -3832,6 +3839,16 @@
 			(type default)
 		)
 		(uuid "11031765-8cd5-477e-ab39-304e57a1e133")
+	)
+	(wire
+		(pts
+			(xy 287.02 152.4) (xy 287.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1129fb62-d74c-433c-91e5-5ed6dbcc8b9b")
 	)
 	(wire
 		(pts
@@ -4025,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 167.64) (xy 234.95 165.1)
+			(xy 231.14 167.64) (xy 231.14 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 154.94) (xy 314.96 156.21)
+			(xy 321.31 154.94) (xy 321.31 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4195,7 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 151.13) (xy 262.89 152.4)
+			(xy 259.08 151.13) (xy 259.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4205,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 166.37) (xy 314.96 163.83)
+			(xy 321.31 166.37) (xy 321.31 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4302,6 +4319,16 @@
 			(type default)
 		)
 		(uuid "60e0a545-22ec-4d75-a146-c85abba07684")
+	)
+	(wire
+		(pts
+			(xy 287.02 167.64) (xy 287.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6235db58-ef89-4c35-ba7d-7a4319144564")
 	)
 	(wire
 		(pts
@@ -4495,7 +4522,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 167.64) (xy 262.89 165.1)
+			(xy 259.08 167.64) (xy 259.08 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4625,7 +4652,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 151.13) (xy 234.95 152.4)
+			(xy 231.14 151.13) (xy 231.14 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 147.32) (xy 314.96 140.97)
+			(xy 321.31 147.32) (xy 321.31 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5086,8 +5113,8 @@
 		(uuid 208e45fc-26ce-4895-bdae-13439b95e03e)
 	)
 	(rectangle
-		(start 254.508 141.224)
-		(end 280.924 174.498)
+		(start 250.698 141.224)
+		(end 277.114 174.498)
 		(stroke
 			(width 0)
 			(type default)
@@ -5096,6 +5123,18 @@
 			(type none)
 		)
 		(uuid 398b9c68-4402-4c72-a36b-e255a8a288c8)
+	)
+	(rectangle
+		(start 278.13 141.224)
+		(end 304.546 174.498)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3ae67f66-5d32-4266-9c8e-84c93f48316d)
 	)
 	(rectangle
 		(start 293.37 40.894)
@@ -5122,8 +5161,8 @@
 		(uuid 5ac726c1-a4f3-4516-b144-1297486cf17a)
 	)
 	(rectangle
-		(start 293.116 136.398)
-		(end 341.376 175.006)
+		(start 307.848 136.398)
+		(end 339.09 175.006)
 		(stroke
 			(width 0)
 			(type default)
@@ -5134,8 +5173,8 @@
 		(uuid 75016879-b276-499c-97bc-1b45477f84db)
 	)
 	(rectangle
-		(start 226.568 141.224)
-		(end 252.984 174.498)
+		(start 222.758 141.224)
+		(end 249.174 174.498)
 		(stroke
 			(width 0)
 			(type default)
@@ -5195,7 +5234,7 @@
 	)
 	(text "GRN"
 		(exclude_from_sim no)
-		(at 315.214 134.112 0)
+		(at 322.58 134.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,7 +5290,7 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 239.268 144.018 0)
+		(at 235.458 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5296,6 +5335,18 @@
 		)
 		(uuid "63fa515a-9c7d-4268-9d72-bffcad581bce")
 	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 290.83 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6db5e5f1-df08-4814-9c8e-0551b1bc24e5")
+	)
 	(text "2W Resistors"
 		(exclude_from_sim no)
 		(at 172.212 108.204 0)
@@ -5308,7 +5359,7 @@
 	)
 	(text "OUTPUT"
 		(exclude_from_sim no)
-		(at 267.208 144.018 0)
+		(at 263.398 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5354,7 +5405,7 @@
 		(uuid "f6ed338d-8cf6-4282-8d58-17f8af8eacb1")
 	)
 	(label "GRN+"
-		(at 262.89 151.13 0)
+		(at 259.08 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5463,7 +5514,7 @@
 		(uuid "862dcc45-9688-4047-9520-e3f23fde66f6")
 	)
 	(label "RED+"
-		(at 262.89 167.64 0)
+		(at 259.08 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5499,7 +5550,7 @@
 		(uuid "94f4156a-2bbb-4788-b627-b23fd7b26f15")
 	)
 	(label "GRN+"
-		(at 314.96 140.97 0)
+		(at 321.31 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5547,7 +5598,7 @@
 		(uuid "e29153be-abbf-4629-8db7-2f14ce92eb33")
 	)
 	(label "GRN+"
-		(at 234.95 151.13 0)
+		(at 231.14 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6075,7 +6126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 211.582 73.66 90)
 			(effects
 				(font
@@ -6497,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.75 76.962 90)
 			(effects
 				(font
@@ -7131,7 +7182,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 262.89 157.48 270)
+		(at 259.08 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7140,7 +7191,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f8f68f9-5901-456b-a28a-467252273fc4")
 		(property "Reference" "J3"
-			(at 265.43 157.4799 90)
+			(at 261.62 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7200,7 @@
 			)
 		)
 		(property "Value" "Conn_02x01"
-			(at 265.43 160.0199 90)
+			(at 261.62 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7209,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
-			(at 262.89 157.48 0)
+			(at 259.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 157.48 0)
+			(at 259.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7227,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 262.89 157.48 0)
+			(at 259.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 314.96 151.13 90)
+		(at 321.31 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7483,7 +7534,7 @@
 		(dnp no)
 		(uuid "54f73d0b-abbc-4c3f-bd40-c39ffb545d1d")
 		(property "Reference" "D4"
-			(at 317.9318 150.1394 90)
+			(at 324.2818 150.1394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7543,7 @@
 			)
 		)
 		(property "Value" "GRN"
-			(at 317.9318 152.4508 90)
+			(at 324.2818 152.4508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7552,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 314.96 151.13 0)
+			(at 321.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 314.96 151.13 0)
+			(at 321.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7570,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 314.96 151.13 0)
+			(at 321.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,6 +7866,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 287.02 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f1a2724-e285-48c0-a740-b64601e3a61e")
+		(property "Reference" "#PWR017"
+			(at 287.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 286.639 172.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1120e63e-2d10-422b-8937-920baa122276")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 119.38 130.81 270)
 		(mirror x)
@@ -7879,76 +7995,6 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 133.35 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cac8cf3-a3f1-49d0-b781-2564d5539016")
-		(property "Reference" "J2"
-			(at 135.89 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 135.89 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 133.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "042d192d-20b9-4a11-86e0-0cae73edffe5")
-		)
-		(pin "1"
-			(uuid "b432a687-2875-441a-8d2d-e10d0f5649af")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8117,7 +8163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 304.038 60.96 90)
 			(effects
 				(font
@@ -8161,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "power-symbol-library:GLV-")
-		(at 314.96 166.37 180)
+		(at 321.31 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8169,7 +8215,7 @@
 		(dnp no)
 		(uuid "797fc517-92b8-404c-bdad-b2274afb45b7")
 		(property "Reference" "#PWR020"
-			(at 314.96 162.56 0)
+			(at 321.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8224,7 @@
 			)
 		)
 		(property "Value" "GLV-"
-			(at 314.579 170.7642 0)
+			(at 320.929 170.7642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 166.37 0)
+			(at 321.31 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 166.37 0)
+			(at 321.31 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 166.37 0)
+			(at 321.31 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,6 +8752,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.35 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "856bf77e-b4f1-4663-a99c-7e27f33200bf")
+		(property "Reference" "J2"
+			(at 135.89 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 135.89 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b87763b-2efa-492c-9147-fbfc1c100cf4")
+		)
+		(pin "1"
+			(uuid "8b4685e5-b98c-4cc6-b097-c2e5745aea80")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:G5V-2")
 		(at 182.88 158.75 180)
 		(unit 1)
@@ -8796,7 +8911,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 234.95 157.48 270)
+		(at 231.14 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8805,7 +8920,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c481818-197c-45aa-97e5-c6e9e03145a4")
 		(property "Reference" "J4"
-			(at 237.49 157.4799 90)
+			(at 233.68 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8929,7 @@
 			)
 		)
 		(property "Value" "Conn_02x01"
-			(at 237.49 160.0199 90)
+			(at 233.68 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8938,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
-			(at 234.95 157.48 0)
+			(at 231.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 157.48 0)
+			(at 231.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,7 +8956,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 157.48 0)
+			(at 231.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,6 +9108,72 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 287.02 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90bb812b-0106-4dfd-bebb-9ce11f3c2b82")
+		(property "Reference" "#PWR018"
+			(at 287.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV+"
+			(at 285.242 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb06a699-0690-43e7-b49d-ac1e74657bb3")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9236,7 +9417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 327.66 84.328 90)
 			(effects
 				(font
@@ -9502,33 +9683,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 102.87 93.98 180)
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 287.02 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab470272-a6a8-474d-b645-da6a53841409")
-		(property "Reference" "J1"
-			(at 102.87 85.09 0)
+		(uuid "ad6b577a-3539-42d4-9045-457d45f6764d")
+		(property "Reference" "J5"
+			(at 289.56 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 102.87 87.63 0)
+		(property "Value" "Conn_02x01"
+			(at 289.56 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 102.87 93.98 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
+			(at 287.02 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 93.98 0)
+			(at 287.02 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,25 +9728,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 93.98 0)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 287.02 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "57b29b09-684e-4454-8ef7-3ec8391315c4")
 		)
 		(pin "1"
-			(uuid "797237da-8832-46b2-a2cd-820f3a5d7e42")
+			(uuid "c99fbc5b-7623-4491-9e5a-31862314cac6")
+		)
+		(pin "2"
+			(uuid "5085c58c-a838-441f-8e1e-9046862ef2f2")
 		)
 		(instances
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9637,7 +9820,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 314.96 160.02 0)
+		(at 321.31 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9645,7 +9828,7 @@
 		(dnp no)
 		(uuid "c33e306d-4ec4-4882-94ca-53c4bab4e85e")
 		(property "Reference" "R29"
-			(at 316.738 158.8516 0)
+			(at 323.088 158.8516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9837,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 316.738 161.163 0)
+			(at 323.088 161.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,8 +9845,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 313.182 160.02 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 319.532 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 314.96 160.02 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 160.02 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,6 +9882,74 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 102.87 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4944089-d35d-4ce7-8dc9-a392d77aee88")
+		(property "Reference" "J1"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec1ba82b-3c47-47ed-a80e-5b3feb485351")
+		)
+		(pin "1"
+			(uuid "b8c94274-15dc-4e2f-a7c8-3989c026ca3b")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9731,7 +9982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 282.448 68.58 90)
 			(effects
 				(font

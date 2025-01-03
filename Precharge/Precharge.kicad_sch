@@ -9,6 +9,7 @@
 		(date "2024-11-01")
 		(rev "3.2")
 		(company "Formula Barton Racing")
+		(comment 1 "evanscesil@gmail.com")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
