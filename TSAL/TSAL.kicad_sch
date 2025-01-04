@@ -9611,7 +9611,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 85.09) (xy 392.43 83.82)
+			(xy 388.62 85.09) (xy 388.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9921,7 +9921,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 57.15) (xy 392.43 58.42)
+			(xy 388.62 57.15) (xy 388.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10813,6 +10813,17 @@
 		)
 		(uuid "0a71dcf7-e059-4341-a0a3-5f3b8c235119")
 	)
+	(label "AIR-"
+		(at 170.18 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d1bd196-5636-4fec-b276-9e418249636e")
+	)
 	(label "SCS_Compliance"
 		(at 292.1 41.91 0)
 		(fields_autoplaced yes)
@@ -10966,7 +10977,7 @@
 		(uuid "26db5a2d-9224-4141-a413-9437ae58bad1")
 	)
 	(label "5V"
-		(at 392.43 57.15 0)
+		(at 388.62 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11010,17 +11021,6 @@
 			(justify right bottom)
 		)
 		(uuid "3978dd40-7f8a-4add-bfb8-77d268f2a179")
-	)
-	(label "Precharge"
-		(at 170.18 243.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ba14e39-6336-4ed9-b4db-bb1abecbfbb2")
 	)
 	(label "GRN+"
 		(at 205.74 238.76 0)
@@ -11159,6 +11159,17 @@
 		)
 		(uuid "5cb74bd0-8bff-4f3b-9445-9707f6cc50f7")
 	)
+	(label "AIR+"
+		(at 186.69 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6848de86-e437-4ad9-b8cc-4f2346525860")
+	)
 	(label "PreCh_Int"
 		(at 170.18 246.38 180)
 		(fields_autoplaced yes)
@@ -11296,6 +11307,28 @@
 		)
 		(uuid "9c00d1d7-809d-4893-b98c-1e3a78fcebd8")
 	)
+	(label "Precharge"
+		(at 170.18 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f25c453-f956-4af6-b4ef-f8e6b7d585c8")
+	)
+	(label "AIR-_Int"
+		(at 186.69 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6f2d57e-78eb-4b09-8d0c-992c7eddc492")
+	)
 	(label "HV+"
 		(at 63.5 66.04 180)
 		(fields_autoplaced yes)
@@ -11330,17 +11363,6 @@
 		)
 		(uuid "b3a430e5-e81c-4173-bcb9-3f0a2a550f1b")
 	)
-	(label "AIR-"
-		(at 170.18 248.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b44ba5f3-fc3d-4c41-891f-369b51f728f6")
-	)
 	(label ".25V"
 		(at 284.48 58.42 270)
 		(fields_autoplaced yes)
@@ -11353,17 +11375,6 @@
 			(justify right bottom)
 		)
 		(uuid "b889d610-f98c-4290-be8a-916708dfa251")
-	)
-	(label "AIR+"
-		(at 186.69 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba1f3138-5220-4d10-8c89-8e217d693363")
 	)
 	(label "PreCh_Int"
 		(at 207.01 200.66 0)
@@ -11486,17 +11497,6 @@
 			(justify right bottom)
 		)
 		(uuid "e2768570-a96a-4ab0-9f31-50400c8ea14f")
-	)
-	(label "AIR-_Int"
-		(at 186.69 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8a4a4ea-7350-4649-aa34-9722aa77a4f1")
 	)
 	(label "GRN+"
 		(at 389.89 179.07 0)
@@ -14793,10 +14793,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6658ee0b-38ad-4733-a037-df7d2255f39b")
 		(property "Reference" "U5"
-			(at 377.19 69.8499 0)
+			(at 372.364 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14805,7 +14804,7 @@
 			)
 		)
 		(property "Value" "74HC08"
-			(at 377.19 72.3899 0)
+			(at 372.364 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15636,7 +15635,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 392.43 85.09 180)
+		(at 388.62 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15644,7 +15643,7 @@
 		(dnp no)
 		(uuid "7639f8fb-78de-44bc-bd4b-3a1883c2595b")
 		(property "Reference" "#PWR020"
-			(at 392.43 81.28 0)
+			(at 388.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15653,7 +15652,7 @@
 			)
 		)
 		(property "Value" "GLV-"
-			(at 392.43 88.138 90)
+			(at 388.62 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +15661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 85.09 0)
+			(at 388.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +15670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 85.09 0)
+			(at 388.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,7 +15679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 85.09 0)
+			(at 388.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +16301,7 @@
 		(dnp no)
 		(uuid "91a6d895-3e3b-4d3e-a6cf-ee3281cf9d6b")
 		(property "Reference" "U3"
-			(at 314.452 80.772 0)
+			(at 323.088 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16311,7 +16310,7 @@
 			)
 		)
 		(property "Value" "74HC20"
-			(at 314.452 83.312 0)
+			(at 323.088 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19150,7 +19149,7 @@
 	(symbol
 		(lib_name "4002_3")
 		(lib_id "4xxx:4002")
-		(at 392.43 71.12 0)
+		(at 388.62 71.12 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19158,7 +19157,7 @@
 		(dnp no)
 		(uuid "e722ec0d-d2b2-4d7f-adc2-dbed95058a0d")
 		(property "Reference" "U2"
-			(at 401.066 70.358 0)
+			(at 392.938 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19165,7 @@
 			)
 		)
 		(property "Value" "74HC27"
-			(at 401.066 72.898 0)
+			(at 392.938 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19174,7 +19173,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 392.43 71.12 0)
+			(at 388.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,7 +19182,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT27.pdf"
-			(at 392.43 71.12 0)
+			(at 388.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,7 +19191,7 @@
 			)
 		)
 		(property "Description" "Dual  4 input NOR gate"
-			(at 392.43 71.12 0)
+			(at 388.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
