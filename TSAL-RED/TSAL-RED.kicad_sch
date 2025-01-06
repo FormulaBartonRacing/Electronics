@@ -3712,16 +3712,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 146.05) (xy 168.91 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061b6d04-adc7-4cf8-8d73-978a70ba6a2c")
-	)
-	(wire
-		(pts
 			(xy 104.14 144.78) (xy 104.14 140.97)
 		)
 		(stroke
@@ -3922,26 +3912,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 137.16) (xy 160.02 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1841e370-d9e7-438c-b2c5-6823454cb655")
-	)
-	(wire
-		(pts
-			(xy 168.91 137.16) (xy 168.91 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193df246-c8c5-468e-afe6-ca066c5b21d7")
-	)
-	(wire
-		(pts
 			(xy 284.48 83.82) (xy 289.56 83.82)
 		)
 		(stroke
@@ -3969,16 +3939,6 @@
 			(type default)
 		)
 		(uuid "1fbfa901-067b-4d7a-adb6-e1911791b33c")
-	)
-	(wire
-		(pts
-			(xy 177.8 116.84) (xy 168.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229ed2d2-7d30-40c7-9956-47822e8827da")
 	)
 	(wire
 		(pts
@@ -4109,16 +4069,6 @@
 			(type default)
 		)
 		(uuid "3c986609-799f-4397-b3da-cb951d320c03")
-	)
-	(wire
-		(pts
-			(xy 168.91 128.27) (xy 168.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414c86bc-db1c-4fb5-9859-a49d828db588")
 	)
 	(polyline
 		(pts
@@ -4392,16 +4342,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 177.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f26443-714b-4f5a-a704-8c07d1cff50c")
-	)
-	(wire
-		(pts
 			(xy 170.18 224.79) (xy 171.45 224.79)
 		)
 		(stroke
@@ -4419,16 +4359,6 @@
 			(type default)
 		)
 		(uuid "783999f9-043d-4e05-b38f-72a4951b8221")
-	)
-	(wire
-		(pts
-			(xy 177.8 127) (xy 177.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aadec33-4b43-4f41-9974-ed47ac478412")
 	)
 	(wire
 		(pts
@@ -4452,17 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 168.91 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e6a306a-a634-4516-bd79-7d408dffc923")
-	)
-	(wire
-		(pts
-			(xy 160.02 109.22) (xy 160.02 110.49)
+			(xy 177.8 134.62) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4509,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "8e74a453-8a9a-489f-9336-887b709d1d63")
-	)
-	(wire
-		(pts
-			(xy 177.8 137.16) (xy 177.8 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911707f5-c300-4ed5-949d-372b78c6774c")
 	)
 	(wire
 		(pts
@@ -4602,16 +4512,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 146.05) (xy 168.91 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4965706-109b-41d3-86f6-b931026a9545")
-	)
-	(wire
-		(pts
 			(xy 201.93 224.79) (xy 201.93 227.33)
 		)
 		(stroke
@@ -4679,16 +4579,6 @@
 			(type default)
 		)
 		(uuid "ae591c0f-8649-49cd-9c6b-302804dc7ea1")
-	)
-	(wire
-		(pts
-			(xy 160.02 144.78) (xy 160.02 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afaef9c8-db4f-4ef6-9f5a-3118468e571e")
 	)
 	(wire
 		(pts
@@ -4932,16 +4822,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 128.27) (xy 160.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de1d4992-9a2b-41fb-b1c0-be32de1882cf")
-	)
-	(wire
-		(pts
 			(xy 176.53 85.09) (xy 180.34 85.09)
 		)
 		(stroke
@@ -5009,16 +4889,6 @@
 			(type default)
 		)
 		(uuid "ec6c7ca5-a31d-443a-9dd2-e24966e03e7e")
-	)
-	(wire
-		(pts
-			(xy 160.02 119.38) (xy 160.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee01a52e-239f-47e6-ba96-3a79c370fdac")
 	)
 	(wire
 		(pts
@@ -5347,9 +5217,9 @@
 		)
 		(uuid "6db5e5f1-df08-4814-9c8e-0551b1bc24e5")
 	)
-	(text "2W Resistors"
+	(text "25W"
 		(exclude_from_sim no)
-		(at 172.212 108.204 0)
+		(at 169.672 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6251,78 +6121,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "210664cb-12c1-4550-945f-95856fb6a3b1")
-		(property "Reference" "R20"
-			(at 162.56 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 162.56 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 158.242 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "164c9094-2996-4338-8599-b5f60bbf54bd")
-		)
-		(pin "1"
-			(uuid "4d600335-31d5-427e-b878-c867b1c8a441")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 160.02 109.22 0)
+		(at 177.8 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6331,7 +6131,7 @@
 		(fields_autoplaced yes)
 		(uuid "225e76da-da4d-47b5-8ffa-df6d5d8b2462")
 		(property "Reference" "#PWR013"
-			(at 160.02 113.03 0)
+			(at 177.8 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6140,7 @@
 			)
 		)
 		(property "Value" "TS+"
-			(at 160.02 104.14 0)
+			(at 177.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 109.22 0)
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 109.22 0)
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 160.02 109.22 0)
+			(at 177.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,76 +6385,6 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "337f107f-3c14-4cd8-b91c-ec878719f115")
-		(property "Reference" "R18"
-			(at 171.45 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 171.45 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 167.132 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56cc9df9-c618-45b1-9b51-78b304388b6d")
-		)
-		(pin "1"
-			(uuid "337c0760-0857-4961-a164-7c3114c9b463")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7111,76 +6841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f64c51c-7bb6-4b14-bd54-0be6485e6c3b")
-		(property "Reference" "R15"
-			(at 180.34 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 180.34 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 176.022 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0085eb7-3a72-40bb-b44b-47de0b8adcb1")
-		)
-		(pin "1"
-			(uuid "8a93d459-76c2-44c8-a803-3fa5d48db7b1")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
 		(at 259.08 157.48 270)
 		(unit 1)
@@ -7245,76 +6905,6 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "403d2b81-2ef2-4dd0-82bf-f38db2dbf558")
-		(property "Reference" "R21"
-			(at 162.56 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 162.56 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 158.242 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "109a258d-559e-4eff-8b29-3524ee226045")
-		)
-		(pin "1"
-			(uuid "d2c50a2d-ff53-4fb3-a6c0-69d164062639")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7594,76 +7184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "551685bf-b488-4c77-8107-79578ee95522")
-		(property "Reference" "R14"
-			(at 162.56 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 162.56 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 158.242 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "851e7f33-f2bb-465d-a6f6-427cfd1adc1d")
-		)
-		(pin "1"
-			(uuid "3ae5682a-ef4e-46b1-b548-b650ef328c03")
-		)
-		(instances
-			(project ""
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 193.04 170.18 180)
 		(unit 1)
@@ -7790,76 +7310,6 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ee8491c-7d73-4751-884d-158383e0234a")
-		(property "Reference" "R22"
-			(at 171.45 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 171.45 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 167.132 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "312285c1-0b39-4857-81e3-40b7575f14a5")
-		)
-		(pin "1"
-			(uuid "80e59efc-6bbd-4626-a925-eea3304e8669")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8403,146 +7853,6 @@
 			(project ""
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e24c950-b13f-47fc-92ed-ab3e4275aff0")
-		(property "Reference" "R16"
-			(at 180.34 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 180.34 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 176.022 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90e57d8a-c4db-414b-ba20-aa959a6826b9")
-		)
-		(pin "1"
-			(uuid "de31b343-1fbd-4006-ab5f-b566baff7f59")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f829cc5-17a9-46fb-b585-e4c4c878b9e1")
-		(property "Reference" "R17"
-			(at 162.56 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 162.56 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 158.242 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97cec86a-c9be-4d03-ab86-e5001fde54d9")
-		)
-		(pin "1"
-			(uuid "1b45862d-db0d-4abc-b414-dd747c3d5804")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9322,76 +8632,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e86297d-c99e-43ac-98cd-5f5ace5182af")
-		(property "Reference" "R19"
-			(at 180.34 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 180.34 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 176.022 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f499a46-81d3-4f60-b445-e57a2066dc8f")
-		)
-		(pin "1"
-			(uuid "61b1f97a-00a8-421b-ab7f-b143c28b9ec4")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 327.66 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10091,76 +9331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 168.91 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d738b197-b7f2-4b2a-91c0-96d0f7ecd40c")
-		(property "Reference" "R23"
-			(at 171.45 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 171.45 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 167.132 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f453258-f6f7-4f07-a19f-37306643f718")
-		)
-		(pin "1"
-			(uuid "3513d11c-9355-44e8-bac4-7a9db1f83202")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 201.93 227.33 180)
 		(unit 1)
@@ -10350,6 +9520,76 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecddf008-afa1-450b-9dfd-684d706b5e14")
+		(property "Reference" "R14"
+			(at 180.34 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 180.34 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Chassis_Resistor:HSA25"
+			(at 176.022 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773035%7FE%7Fpdf%7FEnglish%7FENG_DS_1773035_E.pdf%7F1625971-7"
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62196df3-abc2-4b06-9f2f-35245d2c545c")
+		)
+		(pin "2"
+			(uuid "23524ad5-bd64-4107-9ab1-8efb05132552")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "R14")
 					(unit 1)
 				)
 			)

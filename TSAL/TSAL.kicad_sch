@@ -8542,6 +8542,12 @@
 		(uuid "20d19069-5cda-4576-8cf1-227e34f5217e")
 	)
 	(junction
+		(at 330.2 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "316b36f8-b2d1-4a5f-a843-a7143e5e13e1")
+	)
+	(junction
 		(at 158.75 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8564,6 +8570,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "601f3627-defd-43a3-af8c-7b3cda08df14")
+	)
+	(junction
+		(at 341.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61721c8f-f51c-42ca-bc93-0b09d1811162")
+	)
+	(junction
+		(at 320.04 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65fc1728-cf83-4ce3-bd66-88ac2f6ffa78")
 	)
 	(junction
 		(at 350.52 152.4)
@@ -8788,6 +8806,16 @@
 			(type default)
 		)
 		(uuid "0d049bd5-bf23-44fa-82e4-66018c5af0a5")
+	)
+	(wire
+		(pts
+			(xy 320.04 44.45) (xy 330.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114e382c-b243-4705-9e0a-54423ee78244")
 	)
 	(wire
 		(pts
@@ -9108,6 +9136,16 @@
 			(type default)
 		)
 		(uuid "4c5c5fc8-90e4-42df-b5d0-2358f39dbc5c")
+	)
+	(wire
+		(pts
+			(xy 330.2 44.45) (xy 341.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5c260c-bed3-4e31-b34e-56fa16b7f372")
 	)
 	(wire
 		(pts
@@ -10781,7 +10819,7 @@
 	)
 	(text "Fault Latch"
 		(exclude_from_sim no)
-		(at 309.372 151.384 0)
+		(at 307.34 152.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12701,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "5.1K"
 			(at 364.49 44.4499 0)
 			(effects
 				(font
@@ -13033,6 +13071,75 @@
 			(project "TSAL"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 320.04 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25882c0f-e802-44b3-ba1e-df237e2b496c")
+		(property "Reference" "C5"
+			(at 314.198 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".33uF"
+			(at 314.198 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 321.0052 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 320.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8409a1f8-cd79-481c-8be9-7a640e45e591")
+		)
+		(pin "2"
+			(uuid "72679549-23cb-40e7-abd4-27336422a3f2")
+		)
+		(instances
+			(project "TSAL"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13843,7 +13950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.1K"
+		(property "Value" "100K"
 			(at 364.49 34.2899 0)
 			(effects
 				(font
@@ -14708,6 +14815,75 @@
 			(project "TSAL"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 341.63 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6340c589-48af-41b8-aba3-d8203915ef52")
+		(property "Reference" "C6"
+			(at 336.804 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 336.804 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 340.6648 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 341.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cce197-567c-4809-901b-2c152977c5c5")
+		)
+		(pin "2"
+			(uuid "0a8d97ff-2b62-4258-a958-7b66ffa0f276")
+		)
+		(instances
+			(project "TSAL"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16050,110 +16226,6 @@
 			(project ""
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "U9")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4081")
-		(at 434.34 165.1 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "891bc0c4-e862-4abf-bb28-94df9eaa2c8e")
-		(property "Reference" "U5"
-			(at 434.3317 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC08"
-			(at 434.3317 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 434.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 434.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And 2 inputs"
-			(at 434.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ce1a2f9f-fda7-4019-87a9-ed854b7f0de4")
-		)
-		(pin "6"
-			(uuid "1cbe9444-1105-4c3d-ad96-3c027ba53dbd")
-		)
-		(pin "1"
-			(uuid "7908b0b7-ddae-4b0e-877f-fdb927ed7197")
-		)
-		(pin "10"
-			(uuid "31f6ab8c-1696-42ee-91b8-e13e1745c074")
-		)
-		(pin "13"
-			(uuid "3f8b3e7e-fc8c-4cca-991a-b1a982f8bcfc")
-		)
-		(pin "14"
-			(uuid "20455eaf-965b-4f57-bc4a-4f4e18be7ebf")
-		)
-		(pin "12"
-			(uuid "49522dc1-4ba1-4f46-a973-da76f13eec23")
-		)
-		(pin "9"
-			(uuid "61f6cd74-1b4f-438c-a1c8-02a731b17fa0")
-		)
-		(pin "3"
-			(uuid "002858bb-6123-43c4-ab11-9d986f4e07ec")
-		)
-		(pin "7"
-			(uuid "42c5db85-d373-4ab4-b428-bc9101b7f4b5")
-		)
-		(pin "11"
-			(uuid "46e7bb7b-dbf8-4bce-929f-79272c534b67")
-		)
-		(pin "5"
-			(uuid "c03eafa7-b353-423f-b646-b74ec1ef3f16")
-		)
-		(pin "4"
-			(uuid "4391d16d-50bd-431d-b006-dfb7d5a904e9")
-		)
-		(pin "2"
-			(uuid "181691a2-6231-4f8f-a286-15dfa42525c1")
-		)
-		(instances
-			(project ""
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "U5")
 					(unit 4)
 				)
 			)

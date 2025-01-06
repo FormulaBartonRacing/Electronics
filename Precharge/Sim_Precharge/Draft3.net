@@ -1,9 +1,0 @@
-* C:\users\evans\Desktop\FBR\Precharge\Sim_Precharge\Draft3.asc
-R2 P001 V 75K
-R3 V v2 18K
-V1 P001 0 12
-V2 v2 0 10.7
-R1 V 0 10K
-.op
-.backanno
-.end

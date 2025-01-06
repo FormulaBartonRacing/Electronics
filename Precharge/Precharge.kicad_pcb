@@ -69,7 +69,7 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
-			(copper_finish "HAL SnPb")
+			(copper_finish "HAL lead-free")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -385,7 +385,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "19d59353-2dfd-43be-baf7-89d99b70a8ad")
@@ -1918,7 +1918,7 @@
 				)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "Trim-potentiometer 1M Ohm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2925,7 +2925,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "18K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "12cf2c28-01dd-4dbb-bd18-956c3c5cce8d")
@@ -3502,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "25V Unpolarized capacitor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5286,7 +5286,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6c8a7112-75de-44e6-b45e-30679e0e0246")
@@ -5651,7 +5651,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5c9a4771-95d0-4e5a-97e5-d5435fe21d7b")
@@ -5864,7 +5864,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "18K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "733cd00f-3e72-4ffb-aa0d-7c78fc146564")
@@ -7589,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "084e7ce1-f1f3-4353-a083-7789739fca4b")
@@ -7916,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8Meg"
+		(property "Value" "1.5Meg"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ba9c1772-ac87-450c-bd10-1b4a01271d21")
@@ -9645,7 +9645,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "18K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e86112ed-3b67-472a-a0ae-ffd6b835988d")
@@ -10071,7 +10071,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "7.5K"
 			(at -3.751 15.1585 90)
 			(layer "F.Fab")
 			(uuid "75cf0bdc-b377-4c48-a1b6-0ced0aa589bb")
@@ -10284,7 +10284,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2b3f182b-a680-425d-8429-fa687f91bd4d")
@@ -10710,7 +10710,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "18K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "336f9bc5-a1c2-45f0-ab1c-3a8b477d4eba")
@@ -13198,7 +13198,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13212,7 +13212,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/43669d4a-0abf-4eb5-ab9e-33448bc2008e")
+		(path "/2918fefa-6fe8-4d92-9bbe-09daa1c67c3a")
 		(sheetname "Root")
 		(sheetfile "Precharge.kicad_sch")
 		(attr smd)
@@ -13762,7 +13762,7 @@
 				)
 			)
 		)
-		(property "Value" "11K"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f02edb0e-6f74-4084-964f-fb2fcab09eaf")
@@ -14558,7 +14558,7 @@
 				)
 			)
 		)
-		(property "Value" "34.8K"
+		(property "Value" "18K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dba1cfcb-ebff-4c3a-805c-419bee7d7a9e")
@@ -22173,18 +22173,18 @@
 		(width 0.254)
 		(layer "F.Cu")
 		(net 31)
-		(uuid "31231282-f8cb-43da-b1fd-c65a1578fc93")
+		(uuid "3cc2ed13-782b-44c7-9611-488f137ac123")
 	)
 	(segment
-		(start 115.954 64.514)
+		(start 115.779 64.514)
 		(end 111.762 64.514)
 		(width 0.254)
 		(layer "F.Cu")
 		(net 31)
-		(uuid "ac083092-ca47-482d-88bb-34d1406216bb")
+		(uuid "6866604b-899e-43f2-aa2a-ca6d8fdcfbb3")
 	)
 	(via
-		(at 115.954 64.514)
+		(at 115.779 64.514)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -22192,28 +22192,20 @@
 		(uuid "1e293ae8-b418-4a7e-91ea-f333b1aac725")
 	)
 	(segment
-		(start 118.296 64.531)
+		(start 115.779 64.514)
+		(end 115.796 64.531)
+		(width 0.254)
+		(layer "B.Cu")
+		(net 31)
+		(uuid "283d402a-3124-4051-8399-c4f1fa368c9e")
+	)
+	(segment
+		(start 115.796 64.531)
 		(end 119.898 64.531)
 		(width 0.254)
 		(layer "B.Cu")
 		(net 31)
-		(uuid "2c605791-b799-4e77-92fd-109ce0cc5dfd")
-	)
-	(segment
-		(start 118.279 64.514)
-		(end 118.296 64.531)
-		(width 0.254)
-		(layer "B.Cu")
-		(net 31)
-		(uuid "38f93927-a627-43e8-a86a-eb3860292ea1")
-	)
-	(segment
-		(start 115.954 64.514)
-		(end 118.279 64.514)
-		(width 0.254)
-		(layer "B.Cu")
-		(net 31)
-		(uuid "d0ce1946-63b2-4d2d-8c8c-d56db8883e3c")
+		(uuid "ad1f9e24-aa80-4abb-9436-702fb5e83501")
 	)
 	(segment
 		(start 81.054 65.964)
