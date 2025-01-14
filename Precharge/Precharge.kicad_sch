@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Precharge Circuit")
-		(date "2024-11-01")
-		(rev "3.2")
+		(date "2025-01-10")
+		(rev "3.3")
 		(company "Formula Barton Racing")
 		(comment 1 "evanscesil@gmail.com")
 	)
@@ -3021,6 +3021,12 @@
 		(uuid "f521c184-3da2-4bb3-99c8-6851719324b6")
 	)
 	(junction
+		(at 201.93 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e9a755-da08-46ee-9a71-cfb10e0f17ea")
+	)
+	(junction
 		(at 373.38 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3320,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 101.6) (xy 212.09 101.6)
+			(xy 201.93 95.25) (xy 210.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3717,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "5b80f638-f5a6-4ad2-b497-b828da20a813")
+	)
+	(wire
+		(pts
+			(xy 201.93 95.25) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd306ef-6ace-449c-8d04-6bb1076d9e24")
 	)
 	(wire
 		(pts
@@ -4327,16 +4343,6 @@
 			(type default)
 		)
 		(uuid "d012f1f6-11ef-4ca3-9e3a-ff903b00ed2d")
-	)
-	(wire
-		(pts
-			(xy 201.93 101.6) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0eb0e21-7c6f-4bbc-949d-c61208656592")
 	)
 	(wire
 		(pts
@@ -5235,7 +5241,7 @@
 		(uuid "46ccb1b2-eb28-42ab-ba8e-8b488ea66bc2")
 	)
 	(label "Precharge_12V"
-		(at 212.09 101.6 0)
+		(at 210.82 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7907,6 +7913,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f132623-861c-456a-9f16-5c489e3fef92")
+		(property "Reference" "R39"
+			(at 205.74 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 205.994 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 200.152 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d601648a-4bbb-40ba-a46b-2cc68a5e7c28")
+		)
+		(pin "1"
+			(uuid "9f7a214a-2ceb-4ca3-95fb-b1ed1cc8d115")
+		)
+		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819")
 		(at 151.13 85.09 90)
 		(unit 1)
@@ -10530,6 +10603,73 @@
 			(project "Precharge"
 				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 201.93 105.41 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0cd37b9-bb77-4010-8711-ad282e9784a6")
+		(property "Reference" "#PWR010"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 199.644 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92baf8a8-013f-4a7f-bf66-d5524414f4c7")
+		)
+		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
