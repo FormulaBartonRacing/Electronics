@@ -3614,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 182.88 127)
+			(xy 163.83 127) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -4764,16 +4764,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 132.08) (xy 177.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d657b591-746d-47d9-91ee-3e124e003275")
-	)
-	(wire
-		(pts
 			(xy 238.76 260.35) (xy 240.03 260.35)
 		)
 		(stroke
@@ -5403,7 +5393,7 @@
 		(uuid "8a79d8be-5a0f-4e31-8314-c533190f5394")
 	)
 	(label "Comp_Out"
-		(at 177.8 132.08 180)
+		(at 163.83 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
