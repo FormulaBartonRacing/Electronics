@@ -4067,6 +4067,17 @@
 		)
 		(uuid "177b999a-3c3d-4eb8-a508-4ab30cc061ab")
 	)
+	(text "Uout = 2.63V for 42.5A input\nwhich corresponds to 5kW current\nat 117.6V\nSet pot R5 to >= 9k ohm"
+		(exclude_from_sim no)
+		(at 26.162 30.226 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "19e6ef8a-676d-40c0-a475-acdf0621f8b6")
+	)
 	(text "CONNECTORS"
 		(exclude_from_sim no)
 		(at 34.29 132.08 0)
@@ -4440,6 +4451,12 @@
 		(uuid "19917005-f28f-4356-be4a-6cd9a61fac8e")
 	)
 	(junction
+		(at 58.42 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7fdde1-72ad-4111-b63a-b23430277036")
+	)
+	(junction
 		(at 36.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4450,12 +4467,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31fb19f6-c76c-42f2-954a-fa2a75eb88e8")
-	)
-	(junction
-		(at 260.35 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36ea95f2-9919-4541-93f1-6162aad9a605")
 	)
 	(junction
 		(at 85.09 40.64)
@@ -4504,6 +4515,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bff6d6d-a65b-49ac-8746-dcf713229b65")
+	)
+	(junction
+		(at 57.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c60ba2-2295-41dd-ab3a-419b062c4b16")
 	)
 	(junction
 		(at 186.69 78.74)
@@ -4612,6 +4629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece3ed8c-a1e5-4886-9177-c4657461008d")
+	)
+	(junction
+		(at 262.89 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4180c72-6abe-4156-a43f-4891eb86b024")
 	)
 	(junction
 		(at 91.44 165.1)
@@ -4726,6 +4749,16 @@
 			(type solid)
 		)
 		(uuid "0dc219bd-be69-4bc3-a1d9-1673f4154b16")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0dd318d2-cbdc-4982-b895-69ddf5c24e4a")
 	)
 	(wire
 		(pts
@@ -5109,16 +5142,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 97.79) (xy 260.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b23204-8abc-4d4f-8b22-88b09214fc65")
-	)
-	(wire
-		(pts
 			(xy 87.63 109.22) (xy 85.09 109.22)
 		)
 		(stroke
@@ -5149,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 96.52) (xy 52.07 96.52)
+			(xy 85.09 96.52) (xy 57.15 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -5276,16 +5299,6 @@
 			(type solid)
 		)
 		(uuid "4902e189-b748-4590-bba7-73a43a9c0b33")
-	)
-	(wire
-		(pts
-			(xy 52.07 40.64) (xy 85.09 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4a72ef4c-93fe-460c-8620-5f13c94e0b5d")
 	)
 	(polyline
 		(pts
@@ -5456,6 +5469,16 @@
 			(type solid)
 		)
 		(uuid "5c416cde-aa10-401a-a29a-9ef8907c0029")
+	)
+	(wire
+		(pts
+			(xy 262.89 97.79) (xy 262.89 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5cf210e8-c286-4af5-aa97-5f3e1e781ac9")
 	)
 	(wire
 		(pts
@@ -5756,6 +5779,16 @@
 			(type default)
 		)
 		(uuid "7820a96c-52e0-44a7-aa86-b91be3e1545d")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7882d227-b6c4-4975-b124-0daa9eccbe86")
 	)
 	(polyline
 		(pts
@@ -6419,6 +6452,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 97.79) (xy 262.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2352cf-aea3-4f85-ab14-58edfd20f1da")
+	)
+	(wire
+		(pts
 			(xy 146.05 124.46) (xy 146.05 40.64)
 		)
 		(stroke
@@ -6859,6 +6902,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 96.52) (xy 52.07 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5a7abb8-306e-41b2-8e8f-8e99b8f4e99f")
+	)
+	(wire
+		(pts
 			(xy 163.83 40.64) (xy 163.83 53.34)
 		)
 		(stroke
@@ -7049,7 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 48.26) (xy 262.89 109.22)
+			(xy 262.89 48.26) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -8499,6 +8552,75 @@
 		)
 	)
 	(symbol
+		(lib_id "FSG_2019_BSPD_0.3-eagle-import:resistor_C-EUC0603")
+		(at 58.42 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26dca120-f7db-4625-9b64-ed257f760f26")
+		(property "Reference" "C11"
+			(at 60.706 35.941 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 60.706 38.354 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389e333d-ba08-4a2d-9801-93a38cce2b55")
+		)
+		(pin "2"
+			(uuid "c9548455-f765-4751-82ee-06b492b6e32e")
+		)
+		(instances
+			(project "BSPD"
+				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FSG_2019_BSPD_0.3-eagle-import:resistor_R-EU_R0603")
 		(at 245.11 30.48 90)
 		(unit 1)
@@ -8922,7 +9044,7 @@
 		(dnp no)
 		(uuid "35d301f5-278b-4464-8abb-45200df2cf76")
 		(property "Reference" "R6"
-			(at 63.5 53.3146 90)
+			(at 63.246 55.8546 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8931,7 +9053,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.5 56.388 90)
+			(at 63.246 58.928 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9600,7 +9722,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 252.476 103.378 0)
 			(effects
 				(font
@@ -9985,6 +10107,72 @@
 			(project "BSPD"
 				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FSG_2019_BSPD_0.3-eagle-import:supply1_GND")
+		(at 57.15 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5456cb5c-5208-4128-8b10-fc903962adf0")
+		(property "Reference" "#GND028"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.118 109.728 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16278ad-6402-4803-b936-c4e80f54db34")
+		)
+		(instances
+			(project "BSPD"
+				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
+					(reference "#GND028")
 					(unit 1)
 				)
 			)
@@ -10655,6 +10843,72 @@
 			(project "BSPD"
 				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
 					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FSG_2019_BSPD_0.3-eagle-import:supply1_GND")
+		(at 58.42 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dcfc323-10d1-460f-a155-5aa8d3b62272")
+		(property "Reference" "#GND027"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.388 53.848 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c368e7-0bf2-4d58-b1cd-5749b219fbe7")
+		)
+		(instances
+			(project "BSPD"
+				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
+					(reference "#GND027")
 					(unit 1)
 				)
 			)
@@ -12097,6 +12351,75 @@
 		)
 	)
 	(symbol
+		(lib_id "FSG_2019_BSPD_0.3-eagle-import:resistor_C-EUC0603")
+		(at 57.15 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9df2994e-bc4f-4515-b084-184e2e9501cc")
+		(property "Reference" "C12"
+			(at 59.436 91.821 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.436 94.234 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f7e5d1-25fb-46f2-bc2c-6a213bb4feb7")
+		)
+		(pin "2"
+			(uuid "cb5a04ff-0f6b-401d-83c7-156b2b065df2")
+		)
+		(instances
+			(project "BSPD"
+				(path "/a5240290-4ccc-4dcb-b00c-9b2e551c52af"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FSG_2019_BSPD_0.3-eagle-import:MCS-rcl_POTI.M64X201KB40")
 		(at 64.77 30.48 0)
 		(mirror y)
@@ -12962,7 +13285,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "560"
 			(at 83.312 187.452 0)
 			(effects
 				(font
