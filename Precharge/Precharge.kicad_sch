@@ -3255,6 +3255,12 @@
 		(uuid "349f8a96-80e1-4147-99f9-e9cdc7516b47")
 	)
 	(junction
+		(at 234.95 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41cdd96c-4cee-42ed-8a9e-01de4f295574")
+	)
+	(junction
 		(at 85.09 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,12 +3313,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2d72b0-95fe-4471-8c39-7da135a1a82f")
-	)
-	(junction
-		(at 229.87 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a08fc640-6174-4667-bef3-1f09c8ae3322")
 	)
 	(junction
 		(at 97.79 158.75)
@@ -3476,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 168.91) (xy 222.25 168.91)
+			(xy 215.9 168.91) (xy 227.33 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 173.99) (xy 229.87 179.07)
+			(xy 234.95 173.99) (xy 234.95 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3646,16 +3646,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 158.75) (xy 251.46 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28776f63-5739-4ac5-95ed-913d0a0d9ad1")
-	)
-	(wire
-		(pts
 			(xy 274.32 97.79) (xy 328.93 97.79)
 		)
 		(stroke
@@ -3723,6 +3713,16 @@
 			(type default)
 		)
 		(uuid "2ee9f0ba-79c0-4a8f-ac3c-b6d297aa90f2")
+	)
+	(wire
+		(pts
+			(xy 234.95 143.51) (xy 234.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffcd652-a15a-48a4-a8c4-2ccae866829a")
 	)
 	(wire
 		(pts
@@ -3826,6 +3826,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 158.75) (xy 251.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379c2410-a8fc-40b4-b885-d51f06168f16")
+	)
+	(wire
+		(pts
 			(xy 208.28 55.88) (xy 208.28 57.15)
 		)
 		(stroke
@@ -3833,6 +3843,16 @@
 			(type default)
 		)
 		(uuid "37b4be09-efab-4abe-95fb-6a3181f4af84")
+	)
+	(wire
+		(pts
+			(xy 229.87 158.75) (xy 234.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b209385-9541-44a8-a19f-191595bf1df2")
 	)
 	(wire
 		(pts
@@ -4456,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 158.75) (xy 229.87 163.83)
+			(xy 234.95 158.75) (xy 234.95 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5115,7 +5135,7 @@
 		(uuid "2c82ca40-7034-438c-aa47-e4cfb1c03d34")
 	)
 	(label "AIR+_GND"
-		(at 232.41 158.75 0)
+		(at 234.95 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6043,7 +6063,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 227.33 168.91 0)
+		(at 232.41 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6051,7 +6071,7 @@
 		(dnp no)
 		(uuid "3101ced8-a50d-4ac8-a7a0-45756fbd9b23")
 		(property "Reference" "Q1"
-			(at 233.68 167.6399 0)
+			(at 238.76 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6080,7 @@
 			)
 		)
 		(property "Value" "CJ2310"
-			(at 233.68 170.18 0)
+			(at 238.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 232.41 170.815 0)
+			(at 237.49 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6100,7 @@
 			)
 		)
 		(property "Datasheet" "https://evelta.com/content/datasheets/217-CJ2310.pdf"
-			(at 232.41 172.72 0)
+			(at 237.49 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6110,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 227.33 168.91 0)
+			(at 232.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11509,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 229.87 179.07 180)
+		(at 234.95 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11497,7 +11517,7 @@
 		(dnp no)
 		(uuid "e6eb8cd1-8cf5-489e-a68a-6cdf1973c59c")
 		(property "Reference" "#PWR013"
-			(at 229.87 175.26 0)
+			(at 234.95 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11506,7 +11526,7 @@
 			)
 		)
 		(property "Value" "GLV-"
-			(at 230.632 182.88 0)
+			(at 235.712 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 179.07 0)
+			(at 234.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +11543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 179.07 0)
+			(at 234.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,7 +11552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 179.07 0)
+			(at 234.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
