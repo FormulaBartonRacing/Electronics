@@ -10922,10 +10922,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e0c2c97-d56f-421b-bd20-0df1bb576267")
 		(property "Reference" "Q2"
-			(at 180.34 85.0899 0)
+			(at 179.578 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,7 +10933,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 180.34 87.6299 0)
+			(at 179.578 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)

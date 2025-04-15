@@ -7,7 +7,7 @@
 	(title_block
 		(title "TSAL RED and Discharge")
 		(date "2025-01-03")
-		(rev "1.2.1")
+		(rev "1.3")
 		(company "Formula Barton Racing")
 		(comment 1 "evanscesil@gmail.com")
 	)
@@ -4051,6 +4051,19 @@
 		)
 		(uuid "63fa515a-9c7d-4268-9d72-bffcad581bce")
 	)
+	(text "Note: TSAC_GLV is GLV but taken from inside the accumulator\n	 AIR+_Sup is the SDC supply"
+		(exclude_from_sim no)
+		(at 229.362 178.562 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "66db2489-4cbf-4452-a317-ef4aaaa3daa1")
+	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 290.83 143.51 0)
@@ -4354,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 147.32) (xy 193.04 148.59)
+			(xy 193.04 144.78) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4774,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 162.56) (xy 247.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b69343-a76d-40e6-8201-91f6d1ea9710")
+	)
+	(wire
+		(pts
 			(xy 140.97 222.25) (xy 144.78 222.25)
 		)
 		(stroke
@@ -4891,6 +4914,16 @@
 			(type default)
 		)
 		(uuid "66c33c6a-01ef-42b1-8f96-ef9465871fd7")
+	)
+	(wire
+		(pts
+			(xy 246.38 163.83) (xy 246.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675e16d2-5bea-4aa0-b88d-2c80d1c5d0ab")
 	)
 	(wire
 		(pts
@@ -5111,16 +5144,6 @@
 			(type default)
 		)
 		(uuid "9e58c1cd-24a5-4dad-852f-8e999fbfce03")
-	)
-	(wire
-		(pts
-			(xy 246.38 162.56) (xy 247.65 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39b0bef-f62f-4de5-be8d-0ecac0541ecb")
 	)
 	(wire
 		(pts
@@ -5765,16 +5788,6 @@
 		)
 		(uuid "956b78d5-3882-47d6-b45b-b5021c1586bb")
 	)
-	(label "GRN+"
-		(at 246.38 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7f77c69-d898-4e3d-8aaf-95ae041d8b51")
-	)
 	(label "RED+"
 		(at 246.38 160.02 180)
 		(effects
@@ -5829,7 +5842,7 @@
 		)
 		(uuid "ef2331fc-5e31-4d14-a1c2-f6921cac6a84")
 	)
-	(global_label "HVD_SDC_IN"
+	(global_label "TSAC_GLV-"
 		(shape input)
 		(at 193.04 172.72 0)
 		(fields_autoplaced yes)
@@ -5841,7 +5854,7 @@
 		)
 		(uuid "0f57ee3b-f98c-4a3d-b172-235ed386e57b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3343 172.72 0)
+			(at 206.4876 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5864,7 @@
 			)
 		)
 	)
-	(global_label "HVD_SDC_IN"
+	(global_label "AIR+_Sup"
 		(shape input)
 		(at 261.62 160.02 0)
 		(fields_autoplaced yes)
@@ -5863,7 +5876,51 @@
 		)
 		(uuid "c846de11-789b-403b-9f8d-9904a70043c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.9143 160.02 0)
+			(at 273.6161 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIR+_Sup"
+		(shape input)
+		(at 193.04 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9d30d01-b6a1-4400-8838-a0ebce3bb00f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.0361 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSAC_GLV-"
+		(shape input)
+		(at 261.62 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5833c22-46bf-46aa-821f-fe6fd763edc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0676 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,72 +7140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 193.04 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38d9984a-1eb4-4236-a20b-81afd9ea7e77")
-		(property "Reference" "#PWR011"
-			(at 193.04 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GLV+"
-			(at 191.262 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f6ead39-7b60-4a08-b544-8fb2288dfebe")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Timer:NE555D")
 		(at 262.89 78.74 0)
 		(unit 1)
@@ -7705,6 +7696,71 @@
 			(project "TSAL-RED"
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 246.38 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "656523ee-c968-488c-9761-196ef3922ae6")
+		(property "Reference" "#PWR019"
+			(at 246.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 245.999 168.2242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c229f9-6171-4b9c-9ad8-ccd300ba95df")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8972,71 +9028,6 @@
 			(project ""
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power-symbol-library:GLV-")
-		(at 261.62 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a56a8ad6-b020-43b3-ae41-90095154a76e")
-		(property "Reference" "#PWR012"
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GLV-"
-			(at 261.239 166.9542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "694739d0-400f-4dad-9d55-275ae6913948")
-		)
-		(instances
-			(project "TSAL-RED"
-				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
