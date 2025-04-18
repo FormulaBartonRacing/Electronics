@@ -4051,7 +4051,7 @@
 		)
 		(uuid "63fa515a-9c7d-4268-9d72-bffcad581bce")
 	)
-	(text "Note: TSAC_GLV is GLV but taken from inside the accumulator\n	 AIR+_Sup is the SDC supply"
+	(text "Note: TSAC_GLV is GLV but taken from inside the accumulator\n	 AIR+_Sup is the SDC supply (Also +ve input of AIR+)"
 		(exclude_from_sim no)
 		(at 229.362 178.562 0)
 		(effects
@@ -4367,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 193.04 148.59)
+			(xy 193.04 143.51) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5849,12 +5849,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "0f57ee3b-f98c-4a3d-b172-235ed386e57b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.4876 172.72 0)
+			(at 206.9636 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,17 +5890,19 @@
 	)
 	(global_label "AIR+_Sup"
 		(shape input)
-		(at 193.04 144.78 0)
+		(at 193.04 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "c9d30d01-b6a1-4400-8838-a0ebce3bb00f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.0361 144.78 0)
+			(at 205.5121 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

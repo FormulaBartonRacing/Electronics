@@ -2880,7 +2880,7 @@
 		)
 	)
 	(rectangle
-		(start 152.0712 239.3131)
+		(start 153.924 239.3131)
 		(end 183.8212 265.9831)
 		(stroke
 			(width 0)
@@ -3007,18 +3007,6 @@
 		)
 		(uuid "35a17ada-ecec-41cd-a1a3-999c18b450aa")
 	)
-	(text "Mounting Holes"
-		(exclude_from_sim no)
-		(at 168.5812 235.5031 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "4561f7f2-904d-441b-b9d9-d935f694ad8c")
-	)
 	(text "3s"
 		(exclude_from_sim no)
 		(at 307.086 94.996 0)
@@ -3095,7 +3083,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 168.5812 235.5031 0)
+		(at 168.91 235.966 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4943,6 +4931,16 @@
 			(type default)
 		)
 		(uuid "f37d1403-1afd-4546-a456-05791532cdb8")
+	)
+	(wire
+		(pts
+			(xy 208.28 269.24) (xy 208.28 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f65bad-1026-4092-87d9-aa127ee9287d")
 	)
 	(wire
 		(pts
@@ -8484,7 +8482,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 208.28 267.97 180)
+		(at 208.28 269.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8492,7 +8490,7 @@
 		(dnp no)
 		(uuid "8ff10412-c0d7-40b8-92b1-2f962605a26e")
 		(property "Reference" "#PWR012"
-			(at 208.28 264.16 0)
+			(at 208.28 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8499,7 @@
 			)
 		)
 		(property "Value" "GLV+"
-			(at 208.28 271.018 90)
+			(at 208.28 272.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 267.97 0)
+			(at 208.28 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 267.97 0)
+			(at 208.28 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 267.97 0)
+			(at 208.28 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
