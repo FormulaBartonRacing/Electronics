@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "TSAL RED and Discharge")
-		(date "2025-01-03")
-		(rev "1.3")
+		(date "2025-04-26")
+		(rev "1.4")
 		(company "Formula Barton Racing")
 		(comment 1 "evanscesil@gmail.com")
 	)
@@ -3972,7 +3972,7 @@
 		)
 		(uuid "0f724881-aea6-4977-8b03-84042b202c87")
 	)
-	(text "1.73V at 58.8V\n"
+	(text "1.77V at 58.8V\n"
 		(exclude_from_sim no)
 		(at 140.208 78.74 0)
 		(effects
@@ -4123,7 +4123,7 @@
 		)
 		(uuid "c830622a-44aa-414f-8ee6-f23610823aed")
 	)
-	(text "1.73V\n"
+	(text "1.77V\n"
 		(exclude_from_sim no)
 		(at 138.176 225.044 0)
 		(effects
@@ -4544,6 +4544,16 @@
 			(type default)
 		)
 		(uuid "1fbfa901-067b-4d7a-adb6-e1911791b33c")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20822f4e-dd0c-40cc-b409-8414941a139b")
 	)
 	(wire
 		(pts
@@ -5107,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 123.19 88.9)
+			(xy 123.19 82.55) (xy 123.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5174,16 +5184,6 @@
 			(type default)
 		)
 		(uuid "a9a009d1-053b-4f07-95fb-c84f4d59e5d7")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab51e8b4-177c-46ea-8e17-755ac64a2776")
 	)
 	(wire
 		(pts
@@ -5766,7 +5766,7 @@
 		)
 		(uuid "8abb66d6-aa4f-4444-8d13-359d6dc59e69")
 	)
-	(label "Vin"
+	(label "V_Cap"
 		(at 139.7 82.55 180)
 		(effects
 			(font
@@ -6287,7 +6287,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 92.71 0)
+		(at 123.19 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6296,7 +6296,7 @@
 		(fields_autoplaced yes)
 		(uuid "17381d79-588b-41e2-a3db-fc69ab6acf06")
 		(property "Reference" "R2"
-			(at 125.73 91.4399 0)
+			(at 125.73 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 125.73 93.9799 0)
+			(at 125.73 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6314,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 121.412 92.71 90)
+			(at 121.412 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 92.71 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6332,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 92.71 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +7925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "910"
+		(property "Value" "180"
 			(at 147.32 210.8199 0)
 			(effects
 				(font
@@ -8604,6 +8604,76 @@
 			(project ""
 				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "866eda12-1b6f-410f-b971-e7936f068aae")
+		(property "Reference" "R15"
+			(at 125.73 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 125.73 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 121.412 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1200a83d-379a-4731-b5a4-d5a6dfba0061")
+		)
+		(pin "1"
+			(uuid "08472ff0-ec83-4fa8-ba18-07b8e2789473")
+		)
+		(instances
+			(project "TSAL-RED"
+				(path "/3dba08e1-8d4d-49dd-80dc-41df92bd5b0c"
+					(reference "R15")
 					(unit 1)
 				)
 			)

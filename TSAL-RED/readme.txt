@@ -1,5 +1,7 @@
 v1.0
 ------
+Location: Inside TS enclosure
+
 - RED LED Driver
 - TSAL outputs (both LEDs)
 - Discharge circuit

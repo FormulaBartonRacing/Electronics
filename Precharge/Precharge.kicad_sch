@@ -3103,6 +3103,17 @@
 		)
 		(uuid "7bd8dde2-4608-4caa-bb20-af7d1d54c0fc")
 	)
+	(text "TS Activate Button will activate the Precharge Relay AND AIR- \nwhich connects HV- to TS-"
+		(exclude_from_sim no)
+		(at 105.156 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "874174cf-609b-483f-8244-b96ea3b77f87")
+	)
 	(text "1W resistors"
 		(exclude_from_sim no)
 		(at 153.924 97.79 90)
