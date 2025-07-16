@@ -3972,7 +3972,7 @@
 		)
 		(uuid "0f724881-aea6-4977-8b03-84042b202c87")
 	)
-	(text "1.77V at 58.8V\n"
+	(text "1.77V at 50.4V\n"
 		(exclude_from_sim no)
 		(at 140.208 78.74 0)
 		(effects
@@ -6304,7 +6304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "12K"
 			(at 125.73 90.1699 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "150"
 			(at 125.73 99.0599 0)
 			(effects
 				(font
