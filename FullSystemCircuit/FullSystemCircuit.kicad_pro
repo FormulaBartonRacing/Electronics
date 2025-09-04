@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -411,6 +412,22 @@
     [
       "b36e9f65-9b46-47ee-b936-f4595d91eedf",
       "Root"
+    ],
+    [
+      "4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd",
+      "Precharge Circuit"
+    ],
+    [
+      "714e9145-ce88-4dbc-b516-27ee7b5b346d",
+      "TSAL GREEN"
+    ],
+    [
+      "d3050ae9-8ad3-4eef-b179-aaa264bc6a33",
+      "TSAL_RED"
+    ],
+    [
+      "a3464137-8acb-40a6-a14a-67633a667638",
+      "BSPD"
     ]
   ],
   "text_variables": {}
