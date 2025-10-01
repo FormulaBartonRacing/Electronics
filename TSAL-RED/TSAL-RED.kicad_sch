@@ -5767,17 +5767,6 @@
 		)
 		(uuid "862dcc45-9688-4047-9520-e3f23fde66f6")
 	)
-	(label "TS+"
-		(at 107.95 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8abb66d6-aa4f-4444-8d13-359d6dc59e69")
-	)
 	(label "V_Cap"
 		(at 139.7 82.55 180)
 		(effects
@@ -5812,17 +5801,6 @@
 		)
 		(uuid "c1c91d9b-5018-4c7a-86ed-c4f880780b45")
 	)
-	(label "TS-"
-		(at 107.95 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e9b303-3578-4050-8c97-3d48aec5bf2b")
-	)
 	(label "5V+_Iso"
 		(at 170.18 209.55 180)
 		(effects
@@ -5834,6 +5812,17 @@
 		)
 		(uuid "e29153be-abbf-4629-8db7-2f14ce92eb33")
 	)
+	(hierarchical_label "TS+"
+		(shape input)
+		(at 107.95 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27968787-f7d7-4806-84ba-7486de42d207")
+	)
 	(hierarchical_label "GRN+"
 		(shape input)
 		(at 262.89 157.48 0)
@@ -5844,6 +5833,17 @@
 			(justify left)
 		)
 		(uuid "2eaab13b-3782-4776-906c-4d55a7efb1b3")
+	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 107.95 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aa42336-acda-4d86-9e3c-b8ae53b943eb")
 	)
 	(hierarchical_label "TSAC_GLV-"
 		(shape input)

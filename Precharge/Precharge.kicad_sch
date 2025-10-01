@@ -5273,16 +5273,6 @@
 		)
 		(uuid "d03a8266-2099-4308-95e7-9b133b46151d")
 	)
-	(label "PRECH_PWR"
-		(at 251.46 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbfb8786-54ad-4946-9af6-f0ae23633ca7")
-	)
 	(label "Precharge_12V"
 		(at 293.37 101.6 180)
 		(effects
@@ -5325,6 +5315,30 @@
 	)
 	(global_label "AIR_Sup+"
 		(shape input)
+		(at 251.46 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "29300227-e888-43b7-87ce-175ee8f8d557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.9321 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIR_Sup+"
+		(shape input)
 		(at 218.44 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5346,6 +5360,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "HV+"
+		(shape input)
+		(at 74.93 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07b8987c-ef1c-47a4-bf34-3a733bfe9cd6")
 	)
 	(hierarchical_label "GLV-"
 		(shape input)
@@ -5391,6 +5416,28 @@
 		)
 		(uuid "9b2a959d-f10d-41a3-95e5-9a2069c3ec44")
 	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 151.13 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a99ce014-7ee5-47da-a2e9-20a910cd7cb3")
+	)
+	(hierarchical_label "TS+"
+		(shape input)
+		(at 151.13 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aec3f13f-1d36-4463-84df-cfd93edda612")
+	)
 	(hierarchical_label "AIR-_Out"
 		(shape input)
 		(at 210.82 267.97 270)
@@ -5401,6 +5448,17 @@
 			(justify right)
 		)
 		(uuid "c25dd2cc-529a-4924-b0e0-181a155832dd")
+	)
+	(hierarchical_label "HV-"
+		(shape input)
+		(at 74.93 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f87450cf-e877-4d95-93a2-d7f0c0f204b2")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5464,6 +5522,12 @@
 			(uuid "f83c0b5d-2682-4fc8-8cb6-0973cd445086")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R14")
@@ -5535,6 +5599,12 @@
 			(uuid "ff8a8239-2fdc-427b-84f8-2937d084ea93")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R32")
@@ -5606,6 +5676,12 @@
 			(uuid "dbcee3a1-d1fe-426a-a16d-1a887f2b44fe")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R27")
@@ -5671,6 +5747,12 @@
 			(uuid "ad9b074e-b555-40d2-a412-8fc1e0b60ab6")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP3")
@@ -5738,6 +5820,12 @@
 			(uuid "d2dd1298-c0b2-4dae-b7fc-41d917704ee4")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR029")
@@ -5805,6 +5893,12 @@
 			(uuid "290a7abd-ff5a-4ded-ba53-33f81b512922")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR025")
@@ -5873,6 +5967,12 @@
 			(uuid "d4b7580e-6252-4434-bd72-5a746b338987")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R7")
@@ -5944,6 +6044,12 @@
 			(uuid "19e91363-3412-441b-97e5-813ffe9d174e")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R31")
@@ -6012,6 +6118,12 @@
 			(uuid "86a750f8-45a6-4947-82a8-ae673f92c46b")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R22")
@@ -6087,6 +6199,12 @@
 			(uuid "d69b70fd-8067-43fd-8d0a-04ee9acd9349")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "Q1")
@@ -6165,6 +6283,12 @@
 			(uuid "0b3eef42-e588-41ec-b95e-d43b5af18ca4")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R3")
@@ -6235,6 +6359,12 @@
 			(uuid "86c0a021-6a1a-4fe2-96ee-fc1818c1b8f7")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D2")
@@ -6303,6 +6433,12 @@
 			(uuid "87e4937f-26ae-4ca5-80dc-f34600eda9a9")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R5")
@@ -6370,6 +6506,12 @@
 			(uuid "512013b4-63b6-4e0f-b22d-99d2204004d4")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR026")
@@ -6437,6 +6579,12 @@
 			(uuid "1a03faa3-1994-4d5c-b5b0-890a345d378a")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D3")
@@ -6507,6 +6655,12 @@
 			(uuid "360b42aa-5883-4bf6-9488-07f8d49390a5")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R36")
@@ -6575,6 +6729,12 @@
 			(uuid "6d94cabc-ddd0-45f3-b335-e67bf47e4bc3")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R35")
@@ -6639,98 +6799,16 @@
 			)
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "H1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "H3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 110.49 127 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "484463cb-48a1-4236-8e9f-9849342db659")
-		(property "Reference" "U1"
-			(at 109.22 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393"
-			(at 109.22 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "76a95d47-0eba-42c8-9a39-38df78071316")
-		)
-		(pin "5"
-			(uuid "64c2a064-a583-40c2-878b-434f8b515e2a")
-		)
-		(pin "8"
-			(uuid "cc42da8f-8546-4723-99c8-a4cc5d21c850")
-		)
-		(pin "4"
-			(uuid "867b2509-d150-414a-9cde-89afb7c8d551")
-		)
-		(pin "6"
-			(uuid "d1c0fc82-2e5a-4694-816c-e6521a4328a2")
-		)
-		(pin "1"
-			(uuid "eb235736-1d3b-4baa-af6f-79f595ceee02")
-		)
-		(pin "7"
-			(uuid "9c58291d-b21d-411e-b5e4-ba53f31dab1b")
-		)
-		(pin "2"
-			(uuid "2f638424-2e76-4566-9091-9ffb42b07cec")
-		)
-		(instances
-			(project ""
-				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -6794,6 +6872,12 @@
 			(uuid "df261d4f-48bd-47ec-8d1e-7e4155c59b5f")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R18")
@@ -6909,6 +6993,12 @@
 			(uuid "d7addd18-dcd3-48a2-a341-c9af7257301b")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "K1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "K3")
@@ -6991,6 +7081,12 @@
 			(uuid "a1c950cb-4908-4273-9463-eb1ef3c7a757")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "U3")
@@ -7061,6 +7157,12 @@
 			(uuid "1e8e5ed2-e627-40fa-a2c5-171debc677e2")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "C2")
@@ -7127,6 +7229,12 @@
 			(uuid "cb21dd56-3df1-4cce-b3e2-52f8a40d13af")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR08")
@@ -7196,6 +7304,12 @@
 			(uuid "b4ca33a4-7123-47bc-9dda-5c5541db524d")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R11")
@@ -7260,6 +7374,12 @@
 			(uuid "d0e6f84c-8c3e-47b2-ad7a-3203bc204b55")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP6")
@@ -7327,6 +7447,12 @@
 			(uuid "9637f2a7-9bd1-4b38-95c2-66c8ce36b9d9")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR014")
@@ -7395,6 +7521,12 @@
 			(uuid "417dea3f-1fa6-4c1f-b5ef-2667e6f4798e")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R17")
@@ -7466,6 +7598,12 @@
 			(uuid "78a65a4b-5c78-4f05-89c9-b347ac9c9764")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R33")
@@ -7536,6 +7674,12 @@
 			(uuid "3fed7632-20f1-4be3-88bc-3a017d420481")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R8")
@@ -7614,6 +7758,12 @@
 			(uuid "e6b38ef0-a5bb-475c-94d2-8a371878f70e")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R1")
@@ -7685,6 +7835,12 @@
 			(uuid "d41e16c6-796d-40c8-9a37-d460327d9825")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R24")
@@ -7751,6 +7907,12 @@
 			(uuid "19503574-ba44-481e-8301-47faa49f5ec2")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR013")
@@ -7822,6 +7984,12 @@
 			(uuid "872c714b-e794-4cbc-928f-301f2d01244a")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R36")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R34")
@@ -7888,6 +8056,12 @@
 			(uuid "01de608c-924a-4577-a25a-5978ff7de601")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR011")
@@ -7955,95 +8129,15 @@
 			(uuid "2e8b66cd-73a0-4753-9d03-6eef86a65ce5")
 		)
 		(instances
-			(project "FullSystemCircuit"
-				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
-					(reference "R15")
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R8")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 110.49 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "818580f6-18fb-44b9-a4b6-66735b2b46d7")
-		(property "Reference" "U1"
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 110.49 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "76a95d47-0eba-42c8-9a39-38df78071317")
-		)
-		(pin "5"
-			(uuid "64c2a064-a583-40c2-878b-434f8b515e2b")
-		)
-		(pin "8"
-			(uuid "cc42da8f-8546-4723-99c8-a4cc5d21c851")
-		)
-		(pin "4"
-			(uuid "867b2509-d150-414a-9cde-89afb7c8d552")
-		)
-		(pin "6"
-			(uuid "d1c0fc82-2e5a-4694-816c-e6521a4328a3")
-		)
-		(pin "1"
-			(uuid "eb235736-1d3b-4baa-af6f-79f595ceee03")
-		)
-		(pin "7"
-			(uuid "9c58291d-b21d-411e-b5e4-ba53f31dab1c")
-		)
-		(pin "2"
-			(uuid "2f638424-2e76-4566-9091-9ffb42b07ced")
-		)
-		(instances
-			(project ""
+			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
-					(reference "U1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8110,6 +8204,12 @@
 			(uuid "8de2a70c-fc40-4abb-bbbb-21f5cbc7c03e")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D1")
@@ -8191,6 +8291,12 @@
 			(uuid "c02eaa2b-b10e-4adf-bbea-2bd43d927659")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "J4")
@@ -8255,6 +8361,12 @@
 			(uuid "29aa0d58-b881-45f7-aaac-a7a942b44bd1")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP7")
@@ -8325,6 +8437,12 @@
 			(uuid "0c1e135f-7773-4e5b-a358-18ae544d2b98")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D4")
@@ -8391,6 +8509,12 @@
 			(uuid "d1a3e485-22f6-41fc-8238-488af3c351ab")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR015")
@@ -8456,6 +8580,12 @@
 			(uuid "c3d25ae1-8223-4c9d-a9af-fa967bd32c52")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR028")
@@ -8520,6 +8650,12 @@
 			)
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "H2")
@@ -8586,9 +8722,109 @@
 			(uuid "528a7cd5-d003-4e5e-9362-30a5467aabb9")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 110.49 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a49f8e-068f-4000-8f54-20dc1f52dc3a")
+		(property "Reference" "U?"
+			(at 109.22 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 109.22 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7739211a-9a64-48df-8616-4a5a1408ea8e")
+		)
+		(pin "8"
+			(uuid "8d6bdc11-1170-4e2b-a24c-b3cb6eba6d86")
+		)
+		(pin "7"
+			(uuid "b31f40de-2d75-4ac7-9766-119ccb8ffdae")
+		)
+		(pin "2"
+			(uuid "94925e78-d321-46c0-b471-0355db5a2b0d")
+		)
+		(pin "6"
+			(uuid "ba9635f7-d172-4698-ac12-a5e29edbd94c")
+		)
+		(pin "1"
+			(uuid "28d4b25a-8d9d-4e1e-9542-7117e5a1f58e")
+		)
+		(pin "3"
+			(uuid "64e9b18f-2679-4140-a281-dbb5318c747e")
+		)
+		(pin "5"
+			(uuid "ee629898-e788-461f-acc3-37d02c1c3f7d")
+		)
+		(instances
+			(project ""
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+			(project "FullSystemCircuit"
+				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -8653,6 +8889,12 @@
 			(uuid "0630911b-c025-48fe-8bdd-171248c7b77d")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R16")
@@ -8719,6 +8961,12 @@
 			(uuid "f646b51e-5a51-4ebd-a067-fea054cb7a22")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR06")
@@ -8783,6 +9031,12 @@
 			)
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "H4")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "H4")
@@ -8851,6 +9105,12 @@
 			(uuid "b0c8f778-e945-43c7-90ce-308f0b43dbe8")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R29")
@@ -8915,6 +9175,12 @@
 			(uuid "cbcb1837-acf4-457d-bd9d-5d648cb2da33")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP5")
@@ -8981,6 +9247,12 @@
 			(uuid "6ca3e39a-1c1f-41b9-b8ef-38d674314091")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR012")
@@ -9047,6 +9319,12 @@
 			(uuid "f29a4f03-a2f7-4b6e-a1d4-f0274f40ee92")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR09")
@@ -9114,6 +9392,12 @@
 			(uuid "c8bb7dab-8b74-4105-a3cf-984094e11e82")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR020")
@@ -9185,6 +9469,12 @@
 			(uuid "351de590-047c-4042-bbe3-90bd2388ac3d")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R19")
@@ -9251,6 +9541,12 @@
 			(uuid "1a0da6d4-431f-43cc-a145-95c4de7dd53d")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR07")
@@ -9318,6 +9614,12 @@
 			(uuid "3dc7e987-8b0e-4429-9957-a1fd6f2344b3")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR034")
@@ -9388,6 +9690,12 @@
 			(uuid "5dc407e9-e7c7-4a31-bf71-71ee0a60d6b2")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D5")
@@ -9455,6 +9763,12 @@
 			(uuid "d1aeb3c9-eb7f-478c-863d-171bcd7946d2")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR032")
@@ -9535,6 +9849,12 @@
 			(uuid "6c87bf99-39aa-4cb4-b421-00fcbeb5d300")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "J5")
@@ -9611,6 +9931,12 @@
 			(uuid "2b454d9f-cf15-4acf-83f9-c4f41da091f7")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "Q3")
@@ -9678,6 +10004,12 @@
 			(uuid "ba7d5e9d-12d5-4d14-9371-ad16c2e5f9a5")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR031")
@@ -9743,6 +10075,12 @@
 			(uuid "e61788fa-6145-4119-9095-506f7ae5a6d6")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP2")
@@ -9814,6 +10152,12 @@
 			(uuid "99f3d729-7909-4f42-8bcd-211d884c3ecb")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R20")
@@ -9885,6 +10229,12 @@
 			(uuid "c3675617-f363-461f-9233-f000a5de0892")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R23")
@@ -9952,6 +10302,12 @@
 			(uuid "5e5802d4-04f0-4095-a30c-7bd31a62d26c")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R21")
@@ -10017,6 +10373,12 @@
 			(uuid "43c2016f-20ca-4ab2-a155-f697cc23ac16")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR027")
@@ -10093,6 +10455,12 @@
 			(uuid "398ee374-affc-4df3-a4b8-729c1d0a4e35")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "Q2")
@@ -10171,6 +10539,12 @@
 			(uuid "f3712ddd-ca07-4f00-9ab6-c7384c65173b")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R4")
@@ -10238,6 +10612,12 @@
 			(uuid "18b9a327-770b-4fb9-9361-eb4da53a8434")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP4")
@@ -10306,6 +10686,12 @@
 			(uuid "786990ba-cdad-4db8-a666-82ab0d8c64eb")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R25")
@@ -10373,6 +10759,12 @@
 			(uuid "f65a7cc6-1efe-43f9-9026-7f6f9234f5a8")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR024")
@@ -10442,6 +10834,12 @@
 			(uuid "d287ecae-6dc9-490c-a094-ba6c7daa2fda")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R9")
@@ -10518,9 +10916,107 @@
 			(uuid "b678d081-5a1b-4b42-ad6a-5db6a1db5426")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 110.49 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5562c53-d6d4-4042-9749-98dd66b7d998")
+		(property "Reference" "U?"
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7739211a-9a64-48df-8616-4a5a1408ea8f")
+		)
+		(pin "8"
+			(uuid "8d6bdc11-1170-4e2b-a24c-b3cb6eba6d87")
+		)
+		(pin "7"
+			(uuid "b31f40de-2d75-4ac7-9766-119ccb8ffdaf")
+		)
+		(pin "2"
+			(uuid "94925e78-d321-46c0-b471-0355db5a2b0e")
+		)
+		(pin "6"
+			(uuid "ba9635f7-d172-4698-ac12-a5e29edbd94d")
+		)
+		(pin "1"
+			(uuid "28d4b25a-8d9d-4e1e-9542-7117e5a1f58f")
+		)
+		(pin "3"
+			(uuid "64e9b18f-2679-4140-a281-dbb5318c747f")
+		)
+		(pin "5"
+			(uuid "ee629898-e788-461f-acc3-37d02c1c3f7e")
+		)
+		(instances
+			(project ""
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "FullSystemCircuit"
+				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -10587,6 +11083,12 @@
 			(uuid "fb59d574-ee5f-43b0-8455-2ae339a598e0")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R10")
@@ -10658,6 +11160,12 @@
 			(uuid "859788d9-ab12-44de-84ad-c7e90455e8b3")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R26")
@@ -10726,6 +11234,12 @@
 			(uuid "d07222be-6ab2-4de8-84e4-56095560a26b")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "J2")
@@ -10790,6 +11304,12 @@
 			)
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "H1")
@@ -10869,6 +11389,12 @@
 			(uuid "fc66a5e8-4e8f-45b5-a9f9-1fe46677ad46")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R2")
@@ -10936,6 +11462,12 @@
 			(uuid "2d129d23-8c54-4c9b-b624-bf48b0d1fb40")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR023")
@@ -11003,6 +11535,12 @@
 			(uuid "001fc14d-d114-45b2-a03d-96f2207da34c")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR016")
@@ -11070,6 +11608,12 @@
 			(uuid "b0dd3669-eaa1-45e3-88d9-4f478b5f3232")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR017")
@@ -11138,6 +11682,12 @@
 			(uuid "0c2936ca-a1ae-44d5-a9f2-f627f38f289e")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "C1")
@@ -11209,6 +11759,12 @@
 			(uuid "156c9e8c-5620-481b-a572-193aab611341")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R37")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R37")
@@ -11277,6 +11833,12 @@
 			(uuid "3fe3f341-c8fc-4048-8dac-8bbfb780c371")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R28")
@@ -11346,6 +11908,12 @@
 			(uuid "85ee5b0d-9db5-4cf0-9cb7-0e6b0305a221")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R12")
@@ -11411,6 +11979,12 @@
 			(uuid "16fbf428-fc8c-44e3-b334-e0372d626ac8")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR022")
@@ -11478,6 +12052,12 @@
 			(uuid "107208ca-1c70-40b6-9754-f5a95fc5bb5c")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR019")
@@ -11545,6 +12125,12 @@
 			(uuid "7de34dfc-e1cf-4551-a73c-c13eeaddd693")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR033")
@@ -11610,6 +12196,12 @@
 			(uuid "0582e0fd-e7f4-4a5b-b4ff-5c05124fc403")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR021")
@@ -11676,6 +12268,12 @@
 			(uuid "0925e4c0-de03-4984-9695-6d04dea904b4")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR010")
@@ -11758,6 +12356,12 @@
 			(uuid "db97064f-06ff-4e9a-ab22-91af03ff1059")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "U2")
@@ -11825,6 +12429,12 @@
 			(uuid "17a88ea9-884d-4019-a204-5382c1633e44")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "#PWR030")
@@ -11895,6 +12505,12 @@
 			(uuid "45d3b5ab-f49a-4c60-94c5-b4c8651abb7c")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R13")
@@ -11963,6 +12579,12 @@
 			(uuid "82e0c4a6-4d44-4da6-b5f0-4eb7c1b8a853")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "J3")
@@ -12031,6 +12653,12 @@
 			(uuid "b78348d9-0733-47fb-b9f1-7e5241fb4f94")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "R32")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "R30")
@@ -12098,6 +12726,12 @@
 			(uuid "8accbe8d-f89d-4dd0-a3ab-2e22115f1df9")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "D6")
@@ -12170,6 +12804,12 @@
 			(uuid "7f1b842f-1988-44d8-868e-b2689077c2b5")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "RV1")
@@ -12235,6 +12875,12 @@
 			(uuid "5f93e786-7508-4bd4-b97a-a53991dc1c3f")
 		)
 		(instances
+			(project "Precharge"
+				(path "/5679ed2e-bac1-400d-bcc5-1297256104b1"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
 			(project "FullSystemCircuit"
 				(path "/b36e9f65-9b46-47ee-b936-f4595d91eedf/4f3ab3ed-a4ba-411b-82ef-23ef0662c1fd"
 					(reference "TP1")
@@ -12243,4 +12889,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
