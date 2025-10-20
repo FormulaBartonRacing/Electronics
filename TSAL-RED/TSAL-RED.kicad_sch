@@ -5812,6 +5812,7 @@
 		)
 		(uuid "e29153be-abbf-4629-8db7-2f14ce92eb33")
 	)
+<<<<<<< HEAD
 	(hierarchical_label "TS+"
 		(shape input)
 		(at 107.95 82.55 180)
@@ -5823,6 +5824,8 @@
 		)
 		(uuid "27968787-f7d7-4806-84ba-7486de42d207")
 	)
+=======
+>>>>>>> f4b9db51e509f4d1c75978209e71d3d6252f7b3e
 	(hierarchical_label "GRN+"
 		(shape input)
 		(at 262.89 157.48 0)
@@ -5834,6 +5837,7 @@
 		)
 		(uuid "2eaab13b-3782-4776-906c-4d55a7efb1b3")
 	)
+<<<<<<< HEAD
 	(hierarchical_label "TS-"
 		(shape input)
 		(at 107.95 101.6 180)
@@ -5847,6 +5851,10 @@
 	)
 	(hierarchical_label "TSAC_GLV-"
 		(shape input)
+=======
+	(hierarchical_label "TSAC_GLV-"
+		(shape input)
+>>>>>>> f4b9db51e509f4d1c75978209e71d3d6252f7b3e
 		(at 196.85 172.72 0)
 		(effects
 			(font
