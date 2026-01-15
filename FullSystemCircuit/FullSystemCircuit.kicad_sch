@@ -6480,8 +6480,8 @@
 		)
 	)
 	(sheet
-		(at 127 234.95)
-		(size 12.7 8.89)
+		(at 119.38 240.03)
+		(size 13.97 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6496,7 +6496,7 @@
 		)
 		(uuid "a3464137-8acb-40a6-a14a-67633a667638")
 		(property "Sheetname" "BSPD"
-			(at 127 234.2384 0)
+			(at 119.38 239.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,12 +6505,32 @@
 			)
 		)
 		(property "Sheetfile" "../BSPD/BSPD.kicad_sch"
-			(at 127 244.4246 0)
+			(at 119.38 248.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SENS_1" input
+			(at 119.38 242.57 180)
+			(uuid "e946f896-ea7b-48d9-8e25-896e98b97c0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_2" input
+			(at 119.38 245.11 180)
+			(uuid "6f7ba7c2-d4aa-4873-89b8-53d2442b1b01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

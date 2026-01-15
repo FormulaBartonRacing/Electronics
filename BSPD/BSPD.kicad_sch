@@ -7271,7 +7271,7 @@
 		)
 		(uuid "59f490e5-6943-45b1-b855-e9a3e6c6c354")
 	)
-	(hierarchical_label "SENS1"
+	(hierarchical_label "SENS_1"
 		(shape input)
 		(at 45.72 140.97 180)
 		(effects
@@ -7293,7 +7293,7 @@
 		)
 		(uuid "b383248a-bb4f-4ed4-90c5-496f1ddaf1f0")
 	)
-	(hierarchical_label "SENS2"
+	(hierarchical_label "SENS_2"
 		(shape input)
 		(at 45.72 143.51 180)
 		(effects
@@ -8587,7 +8587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G2RL-2"
+		(property "Value" "G2RL-1-E"
 			(at 248.92 133.3499 0)
 			(effects
 				(font
