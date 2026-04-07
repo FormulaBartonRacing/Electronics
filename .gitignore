@@ -27,3 +27,5 @@ fp-info-cache*
 # Ignore backup and autosave files for schematic and layout files
 *.bak*
 .*.bak*
+
+**/.history/
